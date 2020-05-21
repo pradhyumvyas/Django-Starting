@@ -19,8 +19,35 @@
 <!-- slider end  -->
 
 
-<h1 class="text-center py-4">Contact Page</h1> 
+<h1 class="text-center py-4">Contact US</h1> 
 
+<!-- Form Starting  -->
+
+<div class="container">
+    <form method="POST" action="/contact">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Full Name ">
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="contact">Contact</label>
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Contact Number">
+          </div>
+        <div class="form-group">
+          <label for="desc">Description</label>
+          <textarea class="form-control" id="desc" name="desc"placeholder="Description" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
+
+<!-- Form Ending  -->
 
 
 {% endblock body %}
