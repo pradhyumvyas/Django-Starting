@@ -26,3 +26,12 @@ python manage.py runserver
 ```
 
 **First Make sure you have already install python3 and git in your system
+
+
+## Some Snap for current project
+
+1.
+![screenshot](static/contact.png)
+
+2.
+![screenshot](static/detailedStored.png)
