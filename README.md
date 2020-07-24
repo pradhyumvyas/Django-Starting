@@ -14,13 +14,13 @@ Open Terminal or command prompt and run following command
 git clone https://github.com/pradhyumvyas/Django-Starting.git
 ```
 
-Then open directory where you clone this repo and run following command
+Then open directory where you clone this repo then go to Hello directory and run following command in your terminal
 
 ```bash
 python3 manage.py runserver
 ```
 
-For window user run following command
+For window user run following command in your command prompt
 ```bash
 python manage.py runserver
 ```
